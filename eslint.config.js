@@ -2,7 +2,7 @@ export default [
   {
     rules: {
       semi: ['error', 'always'],
-      quotes: ['error', 'double'],
+      quotes: ['error', 'single'],
       curly: ['error', 'multi-line'],
       eqeqeq: ['error', 'always'],
       'no-duplicate-imports': 'error',
@@ -14,6 +14,7 @@ export default [
       'no-shadow': 'error',
       'func-names': 'error',
       'prefer-arrow-callback': 'error',
+      'react/react-in-jsx-scope': 'off',
     },
   },
 ];
