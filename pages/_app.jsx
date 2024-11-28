@@ -4,7 +4,6 @@
  */
 
 import '../styles/main.css';
-var React = require('react');
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
