@@ -36,16 +36,16 @@ const org = {
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang='en'>
       <Head>
         <meta
-          name="description"
-          content="Cloud Coders is a student-led coding club at Maranatha High School, part of Hack Club, focused on learning, creating, and building projects in tech."
+          name='description'
+          content='Cloud Coders is a student-led coding club at Maranatha High School, part of Hack Club, focused on learning, creating, and building projects in tech.'
         />
-        <meta name="author" content="Cloud Coders" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name='author' content='Cloud Coders' />
+        <link rel='icon' href='/favicon.ico' />
         <script
-          type="application/ld+json"
+          type='application/ld+json'
           dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }}
         />
       </Head>
