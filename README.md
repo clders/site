@@ -1,3 +1,7 @@
+<p align="center">
+  <img style="max-width: 100%; height: auto;" alt="Cloud Coders logo" src="https://clders.com/images/logo-l.png">
+</p>
+
 # [Cloud Coders Website](https://clders.com)
 
 The source code for **clders.com**
