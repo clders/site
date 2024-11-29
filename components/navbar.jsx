@@ -17,13 +17,19 @@ export default function Navbar() {
           <div className='flex items-center'>
             {/* Maranatha High School Logo */}
             <div className='flex-shrink-0'>
-              <Image
-                src='/images/maranatha-logo.png'
-                alt='School Logo'
-                width={60}
-                height={40}
-                className='object-contain'
-              />
+              <Link
+                href='https://maranathahighschool.org'
+                target='_blank'
+                rel='noopener'
+              >
+                <Image
+                  src='/images/maranatha-logo.png'
+                  alt='School Logo'
+                  width={60}
+                  height={40}
+                  className='object-contain'
+                />
+              </Link>
             </div>
 
             {/* Slash separator */}
@@ -46,13 +52,15 @@ export default function Navbar() {
 
             {/* Cloud Coders Logo */}
             <div className='flex-shrink-0'>
-              <Image
-                src='/images/logo-l.png'
-                alt='Cloud Coders Logo'
-                width={200}
-                height={40}
-                className='object-contain'
-              />
+              <Link href='https://clders.com'>
+                <Image
+                  src='/images/logo-l.png'
+                  alt='Cloud Coders Logo'
+                  width={200}
+                  height={40}
+                  className='object-contain'
+                />
+              </Link>
             </div>
           </div>
 
