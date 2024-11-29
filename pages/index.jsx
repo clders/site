@@ -3,9 +3,19 @@
  * @description The home page of the website.
  */
 
+import Head from 'next/head';
+
 export default function HomePage() {
   return (
     <>
+      <Head>
+        <title>A Student-Led Coding Club at Maranatha High School</title>
+        <meta
+          name='description'
+          content='Cloud Coders is a student-led coding club at Maranatha High School, part of Hack Club, focused on learning, creating, and building projects in tech.'
+        />
+      </Head>
+
       {/* Hack Club Flag */}
       <a href='https://hackclub.com/'>
         <img
