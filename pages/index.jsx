@@ -67,8 +67,9 @@ export default function HomePage() {
       <div className='links-section py-16 px-8 bg-light-100'>
         <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {/* About Section */}
-          <motion.div
-            className='link-item bg-primary-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl'
+          <motion.a
+            href='/about'
+            className='link-item bg-primary-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl block'
             initial='hidden'
             animate='visible'
             variants={fadeIn}
@@ -78,14 +79,15 @@ export default function HomePage() {
               Learn more about Cloud Coders, our mission, and the team behind
               this awesome student-led coding club.
             </p>
-            <a href='/about' className='text-accent hover:text-accent-600'>
+            <span className='text-accent hover:text-accent-600'>
               Learn More
-            </a>
-          </motion.div>
+            </span>
+          </motion.a>
 
           {/* Events Section */}
-          <motion.div
-            className='link-item bg-secondary-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl'
+          <motion.a
+            href='/events'
+            className='link-item bg-secondary-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl block'
             initial='hidden'
             animate='visible'
             variants={fadeIn}
@@ -95,14 +97,15 @@ export default function HomePage() {
               Stay updated with upcoming events, hackathons, and meetings hosted
               by Cloud Coders and Hack Club.
             </p>
-            <a href='/events' className='text-accent hover:text-accent-600'>
+            <span className='text-accent hover:text-accent-600'>
               Learn More
-            </a>
-          </motion.div>
+            </span>
+          </motion.a>
 
           {/* Projects Section */}
-          <motion.div
-            className='link-item bg-accent-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl'
+          <motion.a
+            href='/projects'
+            className='link-item bg-accent-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl block'
             initial='hidden'
             animate='visible'
             variants={fadeIn}
@@ -112,14 +115,13 @@ export default function HomePage() {
               Explore our projects, built by students for students, ranging from
               apps to games and more!
             </p>
-            <a href='/projects' className='text-light hover:text-light-600'>
-              Learn More
-            </a>
-          </motion.div>
+            <span className='text-light hover:text-light-600'>Learn More</span>
+          </motion.a>
 
           {/* Contact Section */}
-          <motion.div
-            className='link-item bg-dark-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl'
+          <motion.a
+            href='/contact'
+            className='link-item bg-dark-500 text-white rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl block'
             initial='hidden'
             animate='visible'
             variants={fadeIn}
@@ -129,10 +131,10 @@ export default function HomePage() {
               Get in touch with us for inquiries, collaborations, or if you want
               to join Cloud Coders.
             </p>
-            <a href='/contact' className='text-accent hover:text-accent-600'>
+            <span className='text-accent hover:text-accent-600'>
               Contact Us
-            </a>
-          </motion.div>
+            </span>
+          </motion.a>
         </div>
       </div>
 
