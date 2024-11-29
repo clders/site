@@ -13,6 +13,6 @@
  * @property {string} link The link to the event page. Must be in the /events directory.
  * @property {boolean} archived Whether the event is archived or not. Archived events are not displayed on the events page.
  */
-const eventsData = [];
+const events = [];
 
-export default eventsData;
+export default events;
