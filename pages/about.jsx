@@ -1,5 +1,5 @@
 /**
- * @fileoverview About page
+ * @fileoverview About Page
  * @description The about page of the website.
  */
 
