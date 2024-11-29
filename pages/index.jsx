@@ -3,9 +3,6 @@
  * @description The home page of the website.
  */
 
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-
 export default function Home() {
   return (
     <>
@@ -24,12 +21,6 @@ export default function Home() {
           alt='Hack Club'
         />
       </a>
-
-      {/* Navbar component */}
-      <Navbar />
-
-      {/* Footer component */}
-      <Footer />
     </>
   );
 }
