@@ -47,7 +47,7 @@ export default function EventsPage() {
         />
       </Head>
 
-      <div className='p-8'>
+      <div className='p-8 max-w-screen-2xl mx-auto'>
         <h1 className='text-3xl font-bold mb-6 text-primary'>Events</h1>
         <div className='space-y-8'>
           {sortedEvents.length > 0 ? (

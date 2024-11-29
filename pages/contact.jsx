@@ -17,7 +17,7 @@ export default function ContactPage() {
         />
       </Head>
 
-      <div className='p-8'>
+      <div className='p-8 max-w-screen-2xl mx-auto'>
         {/* Page Header */}
         <h1 className='text-3xl font-bold mb-6 text-primary'>Contact Us</h1>
         <p className='text-md mb-8 text-gray-700'>

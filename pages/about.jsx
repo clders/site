@@ -18,7 +18,7 @@ export default function AboutPage() {
         />
       </Head>
 
-      <div className='p-8'>
+      <div className='p-8 max-w-screen-2xl mx-auto'>
         {/* Page Header */}
         <h1 className='text-3xl font-bold mb-6 text-primary'>
           About Cloud Coders

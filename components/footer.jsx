@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className='bg-dark-500 text-light-500'>
       {/* Footer main section */}
-      <div className='max-w-6xl mx-auto px-6 py-12'>
+      <div className='max-w-screen-2xl mx-auto px-6 py-12'>
         {/* Grid layout for footer sections */}
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
           {/* Brand and mission statement */}
