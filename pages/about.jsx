@@ -6,7 +6,7 @@
 import Link from 'next/link';
 import Map from '../components/map';
 
-export default function About() {
+export default function AboutPage() {
   return (
     <div className='bg-light-500 py-12'>
       <div className='max-w-6xl mx-auto px-6'>

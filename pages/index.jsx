@@ -3,7 +3,7 @@
  * @description The home page of the website.
  */
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       {/* Hack Club Flag */}
