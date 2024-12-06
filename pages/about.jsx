@@ -19,6 +19,15 @@ export default function AboutPage() {
       </Head>
 
       <div className='p-8 max-w-screen-2xl mx-auto'>
+        {/* Club Photo */}
+        <div className='mb-8 flex justify-center'>
+          <img
+            src='/images/assets/club-2024.jpg'
+            alt='Cloud Coders Club 2024 Group Photo'
+            className='w-full max-w-2xl rounded-lg shadow-md'
+          />
+        </div>
+
         {/* Page Header */}
         <h1 className='text-3xl font-bold mb-6 text-primary'>
           About Cloud Coders
