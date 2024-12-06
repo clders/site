@@ -13,6 +13,14 @@
  * @property {string} link The link to the event page. Must be in the /events directory.
  * @property {boolean} archived Whether the event is archived or not. Archived events are not displayed on the events page.
  */
-const events = [];
+const events = [
+  {
+    title: 'First Meeting',
+    date: '2024-12-06T02:38:06+00:00',
+    thumbnail: '/images/events/first-meeting.jpg',
+    description:
+      'Join us for our first meeting and learn more about Cloud Coders!',
+  },
+];
 
 export default events;
